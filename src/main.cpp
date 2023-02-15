@@ -30,15 +30,17 @@ b=temp;
 // creeati o fct template ce sa returneze cel mai mare elem intre 2 param
 
 template <typename Y>
-void largest (Y a, Y b)
+Y largest (Y a, Y b)
 {
 if (a>b)
 {
 
 std::cout<<a<<std::endl;
+return a;
 }
 else
 std::cout<<b<<std::endl;
+return b;
 
 }
 
